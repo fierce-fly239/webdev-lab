@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio_css.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">MyPortfolio</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hi I'm <span>Vrishank</span></h1>
+            <p>A Frontend Developer exploring the world of design and open-source.
+               Turning ideas into interactive, user-friendly web applications.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+
+        <div class="hero-img">
+            <img src="./images.webp" alt="My photo">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a first-year student at Vedam School of Technology who enjoys
+                   building things for the web. I like taking an idea from a rough
+                   sketch to a working page that people actually want to use.</p>
+                <p>Right now I'm learning HTML, CSS, JavaScript and Java, and I spend
+                   my free time on hackathons and small side projects.</p>
+            </div>
+
+            <div class="skills">
+                <h3>My Skills</h3>
+                <ul class="skill-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Java</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This website. A responsive personal portfolio built from scratch
+                   with plain HTML and CSS.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>FindIt</h3>
+                <p>A campus lost &amp; found board that automatically matches lost
+                   items with found ones and shows why they match.</p>
+                <div class="tags">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                </div>
+                <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h3>QuantumRoute</h3>
+                <p>A route-optimisation dashboard built with my team for the
+                   Smart India Hackathon.</p>
+                <div class="tags">
+                    <span>React</span>
+                    <span>Hackathon</span>
+                </div>
+                <a href="#" class="project-link">View Project &rarr;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <p class="contact-intro">Have a question or want to work together? Send me a message.</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vrishank. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro</title>
+    <link rel="stylesheet" href="Bistro.css">
+</head>
+<body>
+    <nav>
+        <span class="logo">Bistro</span>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+    </nav>
+    <header>
+        <div class="hero">
+            <h1>Delivered at your doorstep</h1>
+            <p>Enjoy delicious snacks, meals and drinks delivered, prepared in a hygienic kitchen.</p>
+            <a href="#order" class="btn">Get the App</a>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a small bistro serving fresh food every day. Pizzas, wraps, shakes and more.</p>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600" alt="pizza">
+                <h3>Pizza</h3>
+                <p>Rs. 299</p>
+            </div>
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600" alt="salad">
+                <h3>Salad</h3>
+                <p>Rs. 199</p>
+            </div>
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600" alt="bowl">
+                <h3>Special Bowl</h3>
+                <p>Rs. 249</p>
+            </div>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>French Fries</td>
+                    <td>Rs. 120</td>
+                </tr>
+                <tr>
+                    <td>Paneer Wrap</td>
+                    <td>Rs. 180</td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>Rs. 110</td>
+                </tr>
+                <tr>
+                    <td>Brownie</td>
+                    <td>Rs. 140</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="order">
+            <h2>Order Now</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="enter your name" required>
+                <br><br>
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" placeholder="enter your phone number" required>
+                <br><br>
+                <label for="address">Address</label>
+                <textarea id="address" rows="3" cols="30"></textarea>
+                <br><br>
+                <button type="submit">Order</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Bistro 2026</p>
+    </footer>
+</body>
+</html>
